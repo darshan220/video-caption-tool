@@ -1,27 +1,48 @@
 # video-caption-tool
-This web app allow user to add captions to a video.
+This web app allows users to add captions to a video by specifying timestamps and generating a .vtt file dynamically.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Features
+
+- Upload a video via URL
+
+- Add captions with start and end times
+
+- Generates a .vtt file for captions dynamically
+
+- Displays video with captions using the <video> tag
+
+- Responsive UI built with Next.js and Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install dependencies:
 
 ```bash
+git clone <repo-url>
+cd video-caption-tool
+npm install
+# or
+yarn install
+# or
+bun install
+```
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
 # or
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js - Server-side rendering & React framework
+
+- Tailwind CSS - Styling and responsiveness
+
+- TypeScript - Static typing for reliability
+
+- moment - Time formatting for captions
 
 ## Learn More
 
