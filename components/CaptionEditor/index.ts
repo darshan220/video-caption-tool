@@ -1,0 +1,1 @@
+export { CaptionEditor } from "./CaptionEditor";
