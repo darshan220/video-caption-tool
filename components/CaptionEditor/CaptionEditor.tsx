@@ -55,7 +55,7 @@ export const CaptionEditor = () => {
           />
         </div>
       </div>
-      <Button onClick={handleAddCaption} className="mt-2" variant="default">
+      <Button onClick={handleAddCaption} className="mt-2 cursor-pointer" variant="default">
         Add Caption
       </Button>
       {captions.length > 0 ? (

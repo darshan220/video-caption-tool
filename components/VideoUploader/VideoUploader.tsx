@@ -24,7 +24,7 @@ export const VideoUploader = () => {
     <div className="mb-4 w-full">
       <div className="flex border-b">
         <button
-          className={`px-4 py-2 w-1/2 text-center ${
+          className={`px-4 py-2 w-1/2 text-center cursor-pointer ${
             activeTab === "url"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"
@@ -37,7 +37,7 @@ export const VideoUploader = () => {
           Video URL
         </button>
         <button
-          className={`px-4 py-2 w-1/2 text-center ${
+          className={`px-4 py-2 w-1/2 text-center cursor-pointer ${
             activeTab === "file"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"
